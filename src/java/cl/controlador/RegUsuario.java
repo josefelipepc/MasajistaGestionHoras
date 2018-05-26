@@ -82,7 +82,7 @@ public class RegUsuario extends HttpServlet {
         String nombre = request.getParameter("txtNombre");
         String apellido = request.getParameter("txtApellido");
         String usuario = request.getParameter("txtUser");
-        String password = request.getParameter("txtPass");
+        String password = request.getParameter("txtPass1");
         //Se realiza una validación básica.
         String errores="", msg="";
         if (nombre.isEmpty()){
